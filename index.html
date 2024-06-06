@@ -133,7 +133,7 @@ Como a informação é separada por um delimitador, a vírgula, convém utilizar
 
 <p>
 É importante estar familiarizado com essas 2 funções, os links acima levam para a documentação oficial do Python,
-que tem exemplos e todos os detalhes sobre elas, além disso sempre tem os PDFs da Fernanda :).
+que tem exemplos e todos os detalhes sobre elas, além disso, sempre tem os PDFs da Fernanda :).
 </p>
 
 <p>
@@ -294,7 +294,7 @@ Então, dentro do bloco do <mono>'except'</mono>, retornamos -1.<br/>
 
 <p> 
 Agora, temos que ler as informações desse arquivo, ele está separado em linhas.<br/>
-Cada linha representa um dia, então faz sentido interpretar a informação uma linha de cada vez<br/>
+Cada linha representa um dia, então faz sentido interpretar a informação uma linha de cada vez.<br/>
 </p>
 
 <p> 
@@ -411,7 +411,7 @@ O comando <mono>'continue'</mono> pula para o final do <mono>'for'</mono>, essen
 
 <p>
 Deve-se fechar o arquivo depois que já não iremos mais ler dele.<br/>
-<b>Toda chamada de <mono>'arquivo = open(nome)'</mono> deve ser acompanhada por uma chamada de <mono>'arquivo.close()'</mono></b><br/>
+<b>Toda chamada de <mono>'arquivo = open(nome)'</mono> deve ser acompanhada por uma chamada de <mono>'arquivo.close()'</mono></b>.<br/>
 </p>
 
 <code>
@@ -432,19 +432,19 @@ Agora só falta transformar o total de horas em uma porcentagem e as listas em t
 
 <p>
 A transformação em porcentagem é bem simples, ela até já deu a "formula" no enunciado;<br/>
-<mono>'100*(36/72) = 50%'</mono>. 36 horas em operação de um total de 72h (3 dias; 3 * 24)<br/>
-Fazemos exatamente isso na código, n_horas dividido pelo (n_dias * 24) / 100
+<mono>'100*(36/72) = 50%'</mono>. 36 horas em operação de um total de 72h (3 dias; 3 * 24).<br/>
+Fazemos exatamente isso no código, n_horas dividido pelo (n_dias * 24) / 100.
 </p>
 
 <p>
-E para transformar de uma lista em uma tupla podemos usar a função <mono>tuple()</mono><br/>
+E para transformar de uma lista em uma tupla podemos usar a função <mono>tuple().</mono><br/>
 Agora temos o seguinte tipo, que é justamente o que foi pedido:<br/>
 <mono>{"M1": (dias, %horas), "M2": (dias, %horas), "M3": (dias, %horas) }</mono><br/>
 </p>
 
 <p>
 Tendo feito isso agora é só retornar o dicionário e a questão acabou.<br/>
-Lembrem-se de sempre checar as indentações sempre e de tomar cuidado extra com tudo nos testes kkkk.<br/>
+Lembrem-se de sempre checar as indentações e tomar cuidado extra com tudo nos testes.<br/>
 </p>
 
 </body>
